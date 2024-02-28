@@ -1,0 +1,151 @@
+@media screen and (max-width: 150px){
+header{
+    display: none;
+}
+nav {
+    display: none;
+}
+
+.form {
+    display: none;
+}
+
+.social-links {
+    display: none;
+}
+
+.drop-list {
+    display: none;
+}
+
+.drop-list-one {
+    display: none;
+}
+.logo {
+ display: none;
+}
+.side{
+    display: none;
+}
+}
+@media screen and (min-width: 150px) and (max-width: 1000px) {
+    body {
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: #712cf9;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+    .drop-list {
+        display: none;
+    }
+
+    .drop-list-one {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: #712cf9;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo:hover {
+        transform: matrix(1, -0.1, 0, 1, 0, 0);
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+
+    header li {
+        list-style: none;
+        display: inline-block;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    input {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-image: url(https://freeiconshop.com/wp-content/uploads/edd/search-var-outline.png);
+        background-repeat: no-repeat;
+        background-size: 27px 27px;
+        background-position: left;
+        padding-left: 35px;
+        border: 1px white solid;
+    }
+
+    input:hover {
+        border: 4px rgb(209, 151, 209) groove;
+        width: 220px;
+        height: 35px;
+    }
+
+    .social-links-part {
+        border-right: 1px rgb(255, 255, 255) solid;
+    }
+
+    .drop-list-one {
+        padding: 20px;
+    }
+
+    select {
+        cursor: pointer;
+        border-radius: 4px;
+        height: 25px;
+        border: 1px white solid;
+    }
+
+    option {
+        cursor: pointer;
+    }
+
+    .drop-list {
+        border-right: 1px rgb(255, 255, 255) solid;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .side {
+        display: none;
+    }
+}
